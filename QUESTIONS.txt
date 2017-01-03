@@ -1,0 +1,27 @@
+1) The 3 top classes in Java used to represent failures are Exceptions, Errors, and Throwable
+
+2) A checked exception is run when it is compiled, while an unchecked exception is thrown at runtime.
+
+3) An Error is not something caught within the code but rather within the environment of the application. There are classes such as
+   
+	OutOfMemoryError, StackOverflowError, and ThreadDeath.
+
+4) An unchecked exception is an exception run during RunTime. Any Exception under the Error or RuntimeException classes is an unchecked exception.
+
+5) A checked exception is an exception run during compile time. Any Exception not underneath the Error or RuntimeException classes is a checked exception.
+
+6) An Exception is unchecked if it's caught during Runtime and is a subclass of either Error or RuntimeException.
+
+7) If the failure is caught within the environment and normally has the name "Error" within it.
+
+8) An Exception is checked if it's caught when the program is compiled and is not a subclass of either Erorr or RuntimeException.
+
+9) Try/catch blocks and the throws keyword.
+
+10) Using either a try/catch block or the throws keyword.
+
+11) The signature does not reflect that as exceptions are not a part of the method's signature.
+12) Catch blocks are to catch exceptions that a try block is attempting to test for.
+13) Yes, the order of Exceptions is important in a try/catch block.
+14) Yes, the child class can throw a more generic Exception.
+15) Yes, you can chain Exceptions.
